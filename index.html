@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookWorm</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1>BookWorm</h1>
+    </div>
+    <div class="container">
+        <div class="bookcontainer">
+            <h2>Psychology of Money</h2>
+            <h3>Morgan Housel</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti mollitia quos ad eum atque nihil laboriosam obcaecati aperiam eveniet reiciendis. Natus cumque molestiae corporis aut earum hic commodi odio minima.</p>
+            <button onclick="deletebook(event)">Delete</button>
+        </div>
+    </div>
+   
+    <div class="popupoverlay"></div>
+    <div class="popupbox">
+        <h2>Add Book</h2>
+        <form>
+            <input type="text" placeholder="Book Title" id="booktitleinput">
+            <input type="text" placeholder="Book Author" id="bookauthorinput">
+            <textarea placeholder="Description" id="bookdescriptioninput"></textarea>
+            <button id="addbook">ADD</button>
+            <button id="cancelpopup">CANCEL</button>
+        </form>
+    </div>
+    <button class="addbutton" id="popupbutton">+</button>
+    <script src="script.js"></script>
+</body>
+</html>

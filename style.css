@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:'Ubuntu', sans-serif;
+}
+.navbar{
+    background-color:rgb(192, 192, 8);
+    padding:10px;
+}
+.container{
+    padding:10px;
+}
+.bookcontainer{
+  padding: 15px;
+  width:25%;
+  background-color:rgb(192, 192, 8) ;
+  border-radius: 10px;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+.bookcontainer h2{
+    color:rgb(228, 108, 64);
+}
+.bookcontainer button{
+    background-color:rgb(228, 108, 64) ;
+    border-radius: 10px;
+    padding-left:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border:none;
+    margin-top:10px;
+
+}
+.addbutton{
+    background-color:rgb(192, 192, 8) ;
+    color:black;
+    border-radius: 100%;
+    border:none;
+    font-size:500%;
+    position: fixed;
+    bottom: 30px;
+    right:30px;
+
+}
+.popupoverlay{
+    background-color: black;
+    opacity:0.8;
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    z-index: 1;
+    display:none;
+}
+
+.popupbox{
+    background-color:rgb(192, 192, 8) ;
+    width:50%;
+    padding:40px;
+    border-radius: 10px;
+    position:absolute;
+    top:20%;
+    left:30%;
+    z-index: 2;
+    display:none;
+}
+
+.popupbox input{
+    background: transparent;
+    border:none;
+    width:100%;
+    margin:5px;
+    padding:5px;
+    font-size: 20px;
+}
+.popupbox textarea{
+    background: transparent;
+    border:none;
+    width:100%;
+    margin:5px;
+    padding:5px;
+    font-size: 20px;
+}
+.popupbox button{
+    background-color: black;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    color:white;
+    border:none;
+    margin:5px;
+}
